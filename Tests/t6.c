@@ -12,8 +12,8 @@ void CreateAndYield(int p);
 
 void Main() {
 	int t1, t2;
-
 	MyInitThreads();
+/*
 	Printf("***************************************************************\n");
 	Printf("Thread 0 creates thread 1 when it's at the top of its stack.\n");
 	Printf("Thread 0 creates thread 2 when it's at the bottom of its stack.\n");
@@ -23,7 +23,7 @@ void Main() {
 	Printf(" ***: the values of something on those lines should be equal.\n");
 	Printf("Compare the output with the output of r6.\n");
 	Printf("***************************************************************\n");
-
+*/
 	if(1) {
 		char stack[STACKSIZE];
 		if(((int)&stack[STACKSIZE - 1]) - ((int)&stack[0]) + 1 != STACKSIZE) {

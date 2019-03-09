@@ -14,10 +14,11 @@ void Main() {
 	int t1, t2;
 
 	InitThreads();
+/*
 	Printf("***************************************************************\n");
 	Printf("Reference of t6.\n");
 	Printf("***************************************************************\n");
-
+*/
 	if(1) {
 		char stack[STACKSIZE];
 		if(((int)&stack[STACKSIZE - 1]) - ((int)&stack[0]) + 1 != STACKSIZE) {

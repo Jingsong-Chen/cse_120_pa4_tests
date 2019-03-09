@@ -4,6 +4,7 @@
 #include "stdio.h"
 
 void Main() {
+/*
 	Printf("*************************************************************\n");
 	Printf("Each thread creates and yields to the next thread, then\n");
 	Printf("yields back to the previous thread.\n");
@@ -12,7 +13,7 @@ void Main() {
 	Printf("order.\n");
 	Printf("Check the output with the output of r2.\n");
 	Printf("*************************************************************\n");
-
+*/
 	MyInitThreads();
 
 	void CreateAndRunThread();

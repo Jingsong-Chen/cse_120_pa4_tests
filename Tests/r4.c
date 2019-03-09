@@ -10,11 +10,11 @@ void CreateThreeThreads(int p);
 
 void Main() {
 	int i, t;
-
+/*
 	Printf("*************************************************************\n");
 	Printf("Reference of t4\n");
 	Printf("*************************************************************\n");
-
+*/
 	InitThreads();
 
 	for(i = 0; i < 6; i++) {

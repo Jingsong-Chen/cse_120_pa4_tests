@@ -4,10 +4,11 @@
 #include "stdio.h"
 
 void Main() {
+/*
 	Printf("*************************************************************\n");
 	Printf("Reference of t2.\n");
 	Printf("*************************************************************\n");
-
+*/
 	InitThreads();
 
 	void CreateAndRunThread();

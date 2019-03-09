@@ -9,11 +9,11 @@ void DoNothing(int p);
 
 void Main() {
 	int t;
-
+/*
 	Printf("*************************************************************\n");
 	Printf("Reference of t1.\n");
 	Printf("*************************************************************\n");
-
+*/
 	InitThreads();
 
 	Printf(

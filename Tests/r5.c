@@ -14,10 +14,11 @@ void DoNothing(int p);
 void Main() {
 	int i;
 	int t;
+  /*
 	Printf("*************************************************************\n");
 	Printf("Reference of t5.\n");
 	Printf("*************************************************************\n");
-
+*/
 	InitThreads();
 
 	for(i = 0; i < MAXTHREADS; i++) {

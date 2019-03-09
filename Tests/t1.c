@@ -9,7 +9,7 @@ void DoNothing(int p);
 
 void Main() {
 	int t;
-
+/*
 	Printf("*************************************************************\n");
 	Printf("Thread 0 yields to itself when there is no other thread.\n");
 	Printf("Thread 0 creates thread 1 and yields to it.\n");
@@ -20,7 +20,7 @@ void Main() {
 	Printf("Thread 1 yields to itself when there is no other thread.\n");
 	Printf("Compare the output with the output of r1.\n");
 	Printf("*************************************************************\n");
-
+*/
 	MyInitThreads();
 
 	Printf(

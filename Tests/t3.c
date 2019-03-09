@@ -9,6 +9,7 @@ void DoNothing(int p);
 
 void Main() {
 	int i;
+/*
 	Printf("*************************************************************\n");
 	Printf("This test implements:\n");
 	Printf(" * To clarify this further, consider a program of many\n");
@@ -37,7 +38,7 @@ void Main() {
 	Printf(" * yields to it.\n");
 	Printf("Compare the output with the output of r3.\n");
 	Printf("*************************************************************\n");
-
+*/
 	MyInitThreads();
 
 	for(i = 0; i < 7; i++) {

@@ -10,7 +10,7 @@ void CreateThreeThreads(int p);
 
 void Main() {
 	int i, t;
-
+/*
 	Printf("*************************************************************\n");
 	Printf("This test implements:\n");
 	Printf(" * Here is an example for clarification: say MAXTHREADS = 10,\n");
@@ -23,7 +23,7 @@ void Main() {
 	Printf(" * IDs: 3, 5 and 0.\n");
 	Printf("Compare the output with the output of r4.\n");
 	Printf("*************************************************************\n");
-
+*/
 	MyInitThreads();
 
 	for(i = 0; i < 6; i++) {

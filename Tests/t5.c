@@ -15,6 +15,7 @@ void DoNothing(int p);
 void Main() {
 	int i;
 	int t;
+/*
 	Printf("*************************************************************\n");
 	Printf("Thread 0 creates threads 1-9.\n");
 	Printf("Thread 0 yields to thread 2 from near the top of its stack.\n");
@@ -28,7 +29,7 @@ void Main() {
 	Printf(" ***: the values of something on those lines should be equal.\n");
 	Printf("Compare the output with the output of r5.\n");
 	Printf("*************************************************************\n");
-
+*/
 	MyInitThreads();
 
 	for(i = 0; i < MAXTHREADS; i++) {
