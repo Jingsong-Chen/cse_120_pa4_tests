@@ -1,6 +1,6 @@
 # cse_120_pa4_tests
 
-**The auther of the test cases is Tianheng Liu.
+**The author of the test cases is Tianheng Liu.
 
 I disabled the header printing for each test case
 and automated the testing process.
