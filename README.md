@@ -30,7 +30,8 @@ displayed for each test case should be the time
 stamps such as:
 
 
-```1c1
+```
+1c1
 < Umix (User-Mode Unix) CSE120 Instructional OS v. 4.011 3/01/19-21:45 4243
 ---
 > Umix (User-Mode Unix) CSE120 Instructional OS v. 4.011 3/01/19-21:45 4272
